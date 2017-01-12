@@ -9,7 +9,7 @@ Page({
     userInfo: {},
     tempFilePaths: '',
     title: '颜值打分神器',
-    score:90.99,
+    score: 90.99,
   },
   //事件处理函数
   bindViewTap: function() {
@@ -53,5 +53,11 @@ Page({
           ).catch(console.error); 
       }  
     })
+  },
+  rate: function() {
+    this.setData({
+        score: 80
+
+      })
   }
 })

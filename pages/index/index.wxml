@@ -14,7 +14,8 @@
     </view>
   </view>
   <image src="{{tempFilePaths }}" mode="aspecFill" style="width: 200%; height: 450rpx"/>  
-  <button style="margin:30rpx;" bindtap="chooseimage">获取图片</button> 
+  <button style="margin:30rpx;" bindtap="chooseimage">获取图片</button>
+  <button style="margin:30rpx;" bindtap="rate">颜值打分</button>
 </view>
  
 </view>
