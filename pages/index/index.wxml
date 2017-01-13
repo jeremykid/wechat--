@@ -13,9 +13,17 @@
         <text class="score">{{score}}</text>
     </view>
   </view>
-  <image src="{{tempFilePaths }}" mode="aspecFill" style="width: 200%; height: 450rpx"/>  
-  <button style="margin:30rpx;" bindtap="chooseimage">获取图片</button>
+  <view class="flex-row" style="display:flex;">
+  <view class="flex-item">
+    <image src="{{tempFilePaths }}" mode="aspecFill" style="width: 200px; height: 450rpx"/>  
+    <button style="margin:30rpx;" bindtap="chooseimage">获取图片</button>
+  </view>
+  <view class="flex-wrp">
+    <image src="{{tempFilePaths }}" mode="aspecFill" style="width: 200px; height: 450rpx"/>  
+    <button style="margin:30rpx;" bindtap="chooseimage">获取图片</button>
+  </view>
+</view>
   <button style="margin:30rpx;" bindtap="rate">颜值打分</button>
 </view>
- 
 </view>
+
